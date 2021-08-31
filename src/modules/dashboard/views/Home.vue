@@ -1,30 +1,18 @@
 <template>
-  <div class="dashboard">
-    <main class="mt-5 pt-3">
-      <navbar></navbar>
-      <sidebar></sidebar>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <h4>Dashboard</h4>
-          </div>
-        </div>
-      </div>
-    </main>
-  </div>
+  <AdminLayout>
+    <div class="dashboard">
+      <h4>Dashboard</h4>
+    </div>
+  </AdminLayout>
 </template>
 
 <script>
-import navbar from '../../../components/admin/Navbar.vue'
-import sidebar from '../../../components/admin/Sidebar.vue'
+import AdminLayout from '../../../layouts/AdminLayout'
 
 export default {
   name: 'Home',
   components: {
-    navbar,
-    sidebar
+    AdminLayout
   }
 }
 </script>
-
-<style src="../../../assets/admin/style.css"></style>

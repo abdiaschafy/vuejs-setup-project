@@ -1,8 +1,6 @@
 <template>
-  <div class="dashboard">
-    <main class="mt-5 pt-3">
-      <navbar></navbar>
-      <sidebar></sidebar>
+  <AdminLayout>
+    <div class="dashboard">
       <carPicker></carPicker>
       <div class="container-fluid">
         <div class="row">
@@ -96,24 +94,21 @@
           </div>
         </div>
       </div>
-    </main>
-  </div>
+    </div>
+  </AdminLayout>
 </template>
 
 <script>
-import navbar from '../../../components/admin/Navbar.vue'
-import sidebar from '../../../components/admin/Sidebar.vue'
+import AdminLayout from '../../../layouts/AdminLayout'
 import carPicker from '../../../components/admin/CarPicker.vue'
 
 export default {
   name: 'Home',
   components: {
-    navbar,
-    sidebar,
+    AdminLayout,
     carPicker
   }
 }
 </script>
 
-<style src="../../../assets/admin/style.css"></style>
 <style src="../../../assets/admin/vehicle.css"></style>
