@@ -1,0 +1,10 @@
+.alert-content {
+  font-size: 10px;
+  color: #fff;
+  position: absolute !important;
+}
+.content-item {
+    position: relative !important;
+    top: -8px !important;
+    left: -4px !important;
+}
