@@ -19,7 +19,7 @@
           <li class="my-4"><hr class="dropdown-divider bg-light" /></li>
           <li>
             <div class="text-muted small fw-bold text-uppercase px-3 mb-3">
-              Interface
+              Interfaces
             </div>
           </li>
           <li>

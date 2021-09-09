@@ -1,0 +1,13 @@
+.navbar-color {
+  background-color: rgb(45, 52, 92);
+}
+.tab-content {
+  color: rgb(100, 99, 99);
+}
+.dropdown-item {
+  cursor: pointer;
+}
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.4rem;
+}

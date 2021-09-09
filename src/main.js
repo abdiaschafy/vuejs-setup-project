@@ -28,7 +28,7 @@ registerModules({
 })
 
 const i18nConfig = {
-  locale: 'en',
+  locale: localStorage.getItem('language'),
   fallbackLocale: 'en',
   messages: {
     en: require('@/i18n/en.json'),

@@ -19,7 +19,7 @@ import Navbar from '../components/admin/Navbar.vue'
 import Sidebar from '../components/admin/Sidebar.vue'
 
 export default {
-  name: 'Home',
+  name: 'AdminLayout',
   components: {
     Navbar,
     Sidebar

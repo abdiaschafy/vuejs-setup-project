@@ -10,11 +10,12 @@
       >
         <span class="navbar-toggler-icon" data-bs-target="#sidebar"></span>
       </button>
-      <a
+      <router-link
         class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fw-bold"
-        href="#"
-        >PolyTracking</a
+        to="/dashboard"
       >
+        PolyTracking
+      </router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -61,6 +62,9 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
               <li><a class="dropdown-item" href="#">Logout</a></li>
+              <li>
+                <a class="dropdown-item" href="/">Home</a>
+              </li>
             </ul>
           </li>
         </ul>

@@ -11,9 +11,11 @@
 import Navbar from '../components/guest/Navbar'
 
 export default {
-  name: 'Home',
+  name: 'GuestLayout',
   components: {
     Navbar
   }
 }
 </script>
+
+<style src="../assets/guest/style.css"></style>
